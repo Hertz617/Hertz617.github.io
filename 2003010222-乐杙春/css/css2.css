@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+*{margin: 0;padding: 0;list-style: none;outline: none;border: 0;background: none;}
+body{font-family: "微软雅黑";font-size: 14px;}
+a:link,a:visited{text-decoration: none;color: #FFF;font-size: 16px;}
+*/
+*{padding:0px;
+margin:0px;list-style: none;outline: none;border: 0;}
+body{color: #000; font-size: 12px; font-family: "微软雅黑"; background-color: aliceblue;}
+a:link,a:visited{text-decoration:none; color: #6c6c6c;}
+a:hover{text-decoration: none;}
+
+#top_bg{
+	width:100%;
+	height:30px;
+	background:#FF6000;
+}
+#top{
+	width:980px;
+	height:32px;
+	line-height:28px;
+	margin:0 auto;
+}
+
+.right{
+	float:right;
+}
+#top li{
+	float:left;
+	padding:0px 10px 0px 0px;
+}
+.right .list{
+	padding-left: 10px;
+	position:relative;
+	
+}
+.right #list_cur{
+	width:95px;
+	display:none;
+	position:absolute;
+	top:30px;
+	left:-1px;
+	background-color:#FFF;
+	border:1px solid #EEE;
+	z-index: 2;
+}
+#top .line{color:#CCC;}
+.right li{
+	cursor:pointer;
+	border:1px solid #FF6000;
+}
+.right li span{padding:0px 9px;}
+
+#banner{
+	width: 980px;
+	margin: 0 auto;
+}
+#content{
+	width: 830px;
+	height: 934px;
+	margin: 0 auto;
+	padding-left: 150px;
+}
+.step{
+	width: 454px;
+	height: 80px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #ff6000;
+	line-height: 80px;
+}
+h3{
+	width: 444px;
+	height: 45px;
+	font-size: 20px;
+	font-weight: 100;
+	color:#ff6000;
+	line-height: 45px;
+	border-bottom: 1px solid #ff6000;
+}
+td{
+	height: 50px;
+	color: #ff6000;
+}
+.left{
+	width: 120px;
+	text-align: right;
+}
+._right{
+	width: 320px;
+	height: 28px;
+	border: 1px solid #ff6000;
+}
+input{vertical-align: middle;}
+select{
+	width: 171px;
+	border: 1px solid #ff6000;
+	
+	color: #ff6000;
+}
+textarea{
+	width: 380px;
+	border: 1px solid #ff6000;
+	resize: none;
+	font-size: 12px;
+	color: #aaa;
+	padding: 20px;
+}
+.btn{
+	width: 408px;
+	height: 76px;
+	background: url("../images/btn.png") right center no-repeat;
+}
+.img {
+	margin-left: 130px;
+}
+#footer{
+	width:100%;
+	height: 160px;
+	background:#FFF;
+	color: #555;
+	text-align: center;
+	line-height: 80px;
+	margin-top: 50px;
+	font-size: 14px;
+}
